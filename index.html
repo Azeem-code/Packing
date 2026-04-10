@@ -1,0 +1,955 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pack My Food – Sustainable Food Packaging Suppliers</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+ <!-- Main CSS File -->
+  <link href="main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- TOP STRIP -->
+<div class="top-strip">
+  🌿 Sustainable Packaging <span>•</span> Free Design Support <span>•</span> Pan-India Delivery <span>•</span> WhatsApp: <strong>+91 8807504374</strong>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <a class="logo" href="#">
+      <div class="logo-img">
+        <svg viewBox="0 0 24 24"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="17"/><line x1="9.5" y1="14.5" x2="14.5" y2="14.5"/></svg>
+      </div>
+      <div class="logo-text">
+        <span class="brand">Pack My Food</span>
+        <span class="sub">Sustainable Packaging</span>
+      </div>
+    </a>
+    <!--div class="search-bar">
+      <input type="text" placeholder="Search for packaging products…" id="searchInput"/>
+      <button onclick="handleSearch()">
+        <svg style="width:16px;height:16px;fill:none;stroke:#fff;stroke-width:2.5;stroke-linecap:round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Search
+      </button>
+    </div-->
+    <div class="header-actions">
+      <button class="h-btn" onclick="toggleWishlist()">
+        <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.P5 0 0 0 0-7.78z"/></svg>
+        Wishlist
+      </button>
+      <button class="h-btn cart-btn" onclick="toggleCart()">
+        <div class="cart-count" id="cartCount">0</div>
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        Cart
+      </button>
+      <a href="https://wa.me/918807504374" class="whatsapp-btn">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        Chat Now
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-item"><a href="#" class="nav-link active">Home</a></div>
+    <div class="nav-item">
+      <a href="#" class="nav-link">Food Containers ▾</a>
+      <div class="dropdown">
+        <a href="#">Meal Boxes</a>
+        <a href="#">Burger Boxes</a>
+        <a href="#">Pizza Boxes</a>
+        <a href="#">Noodle Boxes</a>
+        <a href="#">Salad Boxes</a>
+        <a href="#">Snack Boxes</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="#" class="nav-link">Boat Trays ▾</a>
+      <div class="dropdown">
+        <a href="#">Paper Boat Trays</a>
+        <a href="#">Kraft Boat Trays</a>
+        <a href="#">Compartment Trays</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="#" class="nav-link">Glasses ▾</a>
+      <div class="dropdown">
+        <a href="#">Paper Cups</a>
+        <a href="#">Ripple Glasses</a>
+        <a href="#">Soup Cups</a>
+        <a href="#">Cold Drink Cups</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="#" class="nav-link">Bags ▾</a>
+      <div class="dropdown">
+        <a href="#">Paper Carry Bags</a>
+        <a href="#">SOS Bags</a>
+        <a href="#">Bakery Bags</a>
+        <a href="#">Handle Bags</a>
+      </div>
+    </div>
+    <div class="nav-item">
+      <a href="#" class="nav-link">Wraps & Cutlery ▾</a>
+      <div class="dropdown">
+        <a href="#">Tissue Wraps</a>
+        <a href="#">Wooden Cutlery</a>
+        <a href="#">Paper Straws</a>
+        <a href="#">Toothpicks</a>
+      </div>
+    </div>
+    <!--div class="nav-item"><a href="#design" class="nav-link">Design Studio</a></div-->
+    <div class="nav-item"><a href="#" class="nav-link offers-link">🏷️ OFFERS</a></div>
+    <div class="nav-item"><a href="#contact" class="nav-link">Contact</a></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero-banner">
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="eyebrow">🌿 Eco-Friendly · Food-Safe · Custom Print</div>
+      <h1>Premium <em>Food Packaging</em><br/>for Every Business</h1>
+      <p>From cloud kitchens to fine bakeries — we supply sustainable, print-ready packaging that makes your food brand unforgettable. Pan-India delivery guaranteed.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn-yellow">Shop Now</a>
+        <a href="#getaquote" class="btn-yellow-outline">Get a Quote</a>
+        <!--a href="#design" class="btn-white-outline">Design Studio</a-->
+      </div>
+      <div class="hero-badges">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+          FSSAI Compliant
+        </div>
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+          Low MOQ — 100 pcs
+        </div>
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+          48h Sample Delivery
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-pack">
+        <div class="hero-pack-icon">📦</div>
+        <div class="hero-pack-name">Meal Box</div>
+        <div class="hero-pack-price">from ₹4.50</div>
+      </div>
+      <div class="hero-pack">
+        <div class="hero-pack-icon">🛍️</div>
+        <div class="hero-pack-name">Paper Bags</div>
+        <div class="hero-pack-price">from ₹2.75</div>
+      </div>
+      <div class="hero-pack">
+        <div class="hero-pack-icon">☕</div>
+        <div class="hero-pack-name">Paper Cups</div>
+        <div class="hero-pack-price">from ₹1.80</div>
+      </div>
+      <div class="hero-pack">
+        <div class="hero-pack-icon">🍕</div>
+        <div class="hero-pack-name">Pizza Box</div>
+        <div class="hero-pack-price">from ₹9.50</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES STRIP -->
+<div class="features-strip">
+  <div class="features-inner">
+    <div class="feat-item">
+      <div class="feat-icon-wrap">
+        <svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+      </div>
+      <div>
+        <div class="feat-title">Free Delivery</div>
+        <div class="feat-sub">Orders above ₹2,000</div>
+      </div>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon-wrap">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <div>
+        <div class="feat-title">48hr Sample</div>
+        <div class="feat-sub">Fast sample dispatch</div>
+      </div>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon-wrap">
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div>
+        <div class="feat-title">FSSAI Certified</div>
+        <div class="feat-sub">100% food-safe materials</div>
+      </div>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon-wrap">
+        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      </div>
+      <div>
+        <div class="feat-title">Expert Support</div>
+        <div class="feat-sub">Packaging specialist help</div>
+      </div>
+    </div>
+    <div class="feat-item">
+      <div class="feat-icon-wrap">
+        <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      </div>
+      <div>
+        <div class="feat-title">Bulk Discounts</div>
+        <div class="feat-sub">Save more on large orders</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<div class="section">
+  <div class="section-header">
+    <div>
+      <div class="section-title">Shop by Category</div>
+      <div class="section-sub">Find packaging solutions for every food format</div>
+    </div>
+    <a href="#" class="view-all">View All →</a>
+  </div>
+  <div class="cat-grid">
+    <a class="cat-card" href="#"><div class="cat-icon">📦</div><div class="cat-name">Meal Boxes</div><div class="cat-count">48 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🍕</div><div class="cat-name">Pizza Boxes</div><div class="cat-count">22 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🍔</div><div class="cat-name">Burger Boxes</div><div class="cat-count">18 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🍜</div><div class="cat-name">Noodle Boxes</div><div class="cat-count">14 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🛍️</div><div class="cat-name">Paper Bags</div><div class="cat-count">36 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">☕</div><div class="cat-name">Paper Cups</div><div class="cat-count">30 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🥗</div><div class="cat-name">Salad Bowls</div><div class="cat-count">16 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🧁</div><div class="cat-name">Bakery Boxes</div><div class="cat-count">26 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🍟</div><div class="cat-name">Boat Trays</div><div class="cat-count">12 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🍦</div><div class="cat-name">Ice Cream Cups</div><div class="cat-count">10 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🥡</div><div class="cat-name">Takeaway Boxes</div><div class="cat-count">32 products</div></a>
+    <a class="cat-card" href="#"><div class="cat-icon">🍱</div><div class="cat-name">Compartment Trays</div><div class="cat-count">9 products</div></a>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FEATURED PRODUCTS -->
+<div class="section" id="products">
+  <div class="section-header">
+    <div>
+      <div class="section-title">Featured Products</div>
+      <div class="section-sub">Top picks across all categories — ready to ship</div>
+    </div>
+    <a href="#" class="view-all">View All →</a>
+  </div>
+  <div class="prod-grid" id="productGrid">
+
+    <!-- PRODUCT 1 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#f0f8f3">📦</div>
+        <div class="prod-badge new">NEW</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">SOS012</div>
+        <div class="prod-name">SOS Paper Bag (Small)</div>
+        <div class="prod-desc">Food-safe SOS flat bottom bags ideal for bakeries and takeaway shops. Kraft paper.</div>
+        <div class="variants-row">
+          <span class="variant-chip active">Small</span>
+          <span class="variant-chip">Medium</span>
+          <span class="variant-chip">Large</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹3.15</span>
+            <span class="prod-mrp">₹4.00</span>
+            <span class="prod-discount">21% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 500 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('SOS Paper Bag', 3.15, '🛍️')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#fff8ee">🍔</div>
+        <div class="prod-badge eco">ECO</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">PHB001</div>
+        <div class="prod-name">Kraft Paper Handle Bag (Medium)</div>
+        <div class="prod-desc">Premium handle bags with twisted rope handles. Perfect for restaurants and gift shops.</div>
+        <div class="variants-row">
+          <span class="variant-chip">Small</span>
+          <span class="variant-chip active">Medium</span>
+          <span class="variant-chip">Large</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹7.70</span>
+            <span class="prod-mrp">₹9.50</span>
+            <span class="prod-discount">19% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 300 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Kraft Handle Bag', 7.70, '🛍️')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#f5f0ff">🍕</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">PBX007</div>
+        <div class="prod-name">Pizza Box 10 inch</div>
+        <div class="prod-desc">Corrugated kraft pizza box with ventilation holes. Keeps pizza crispy and hot.</div>
+        <div class="variants-row">
+          <span class="variant-chip active">8 inch</span>
+          <span class="variant-chip">10 inch</span>
+          <span class="variant-chip">12 inch</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹9.50</span>
+            <span class="prod-mrp">₹12.00</span>
+            <span class="prod-discount">21% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 200 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Pizza Box 10in', 9.50, '🍕')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 4 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#fff0f0">☕</div>
+        <div class="prod-badge">HOT</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">CUP200</div>
+        <div class="prod-name">Ripple Paper Cup 200ml</div>
+        <div class="prod-desc">Double-wall ripple cups that keep hands cool. Great for hot beverages like chai and coffee.</div>
+        <div class="variants-row">
+          <span class="variant-chip active">100ml</span>
+          <span class="variant-chip">200ml</span>
+          <span class="variant-chip">350ml</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹2.40</span>
+            <span class="prod-mrp">₹3.00</span>
+            <span class="prod-discount">20% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 1000 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Ripple Cup 200ml', 2.40, '☕')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 5 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#f0fff8">🥗</div>
+        <div class="prod-badge eco">ECO</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">SLD004</div>
+        <div class="prod-name">Kraft Salad Bowl with Lid</div>
+        <div class="prod-desc">Sturdy kraft paper salad bowls with transparent PET lid. Leak-proof and food-safe.</div>
+        <div class="variants-row">
+          <span class="variant-chip">500ml</span>
+          <span class="variant-chip active">750ml</span>
+          <span class="variant-chip">1000ml</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹6.80</span>
+            <span class="prod-mrp">₹8.50</span>
+            <span class="prod-discount">20% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 500 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Salad Bowl 750ml', 6.80, '🥗')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 6 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#fffaf0">🍟</div>
+        <div class="prod-badge new">NEW</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">BT008</div>
+        <div class="prod-name">Paper Boat Tray (Large)</div>
+        <div class="prod-desc">Classic boat-shaped trays for fries, rolls, and street food. Oil-resistant coating.</div>
+        <div class="variants-row">
+          <span class="variant-chip">Small</span>
+          <span class="variant-chip">Medium</span>
+          <span class="variant-chip active">Large</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹1.90</span>
+            <span class="prod-mrp">₹2.50</span>
+            <span class="prod-discount">24% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 1000 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Boat Tray Large', 1.90, '🍟')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 7 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#f5f0e8">🧁</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">BKY015</div>
+        <div class="prod-name">Bakery Window Box (6-cavity)</div>
+        <div class="prod-desc">White cardboard pastry box with clear window. Perfect for cupcakes, cookies & sweets.</div>
+        <div class="variants-row">
+          <span class="variant-chip">4 cavity</span>
+          <span class="variant-chip active">6 cavity</span>
+          <span class="variant-chip">12 cavity</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹14.50</span>
+            <span class="prod-mrp">₹18.00</span>
+            <span class="prod-discount">19% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 100 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Bakery Window Box', 14.50, '🧁')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT 8 -->
+    <div class="prod-card">
+      <div class="prod-img">
+        <div class="prod-img-bg" style="background:#eef5ff">🍜</div>
+        <div class="prod-badge eco">ECO</div>
+        <div class="prod-wishlist" onclick="toggleWishlistItem(this)">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+      </div>
+      <div class="prod-body">
+        <div class="prod-code">NDB003</div>
+        <div class="prod-name">Chinese Noodle Box 750ml</div>
+        <div class="prod-desc">Classic pagoda-style noodle box with metal handle wire. Popular with Asian kitchens.</div>
+        <div class="variants-row">
+          <span class="variant-chip">500ml</span>
+          <span class="variant-chip active">750ml</span>
+        </div>
+        <div class="prod-footer">
+          <div class="prod-price-row">
+            <span class="prod-price">₹5.20</span>
+            <span class="prod-mrp">₹6.50</span>
+            <span class="prod-discount">20% off</span>
+          </div>
+          <div class="prod-moq">Min. Order: 500 pcs</div>
+          <div class="prod-actions">
+            <button class="btn-add-cart" onclick="addToCart('Noodle Box 750ml', 5.20, '🍜')">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- OFFER BANNER -->
+<div class="section" style="padding-top:0">
+  <div class="offer-banner">
+    <div>
+      <h3>🎉 Bulk Order Discount — Save Up to 25%</h3>
+      <p>Order 5,000+ units and get an additional discount on all products. Use code at checkout.</p>
+    </div>
+    <div class="offer-code">BULK25</div>
+    <a href="#" class="btn-yellow">Shop Now</a>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- BAG PRODUCTS SECTION -->
+<div class="section">
+  <div class="section-header">
+    <div>
+      <div class="section-title">🛍️ Paper Bags — Best Sellers</div>
+      <div class="section-sub">From SOS bags to premium handle bags — we have every style</div>
+    </div>
+    <a href="#" class="view-all">View All Bags →</a>
+  </div>
+  <div class="prod-grid">
+    <div class="prod-card">
+      <div class="prod-img"><div class="prod-img-bg" style="background:#fff8ee">🛍️</div><div class="prod-badge new">NEW</div><div class="prod-wishlist" onclick="toggleWishlistItem(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div></div>
+      <div class="prod-body">
+        <div class="prod-code">PHB002</div>
+        <div class="prod-name">Kraft Handle Bag (Large)</div>
+        <div class="prod-desc">Large brown kraft paper bag with twisted handles. Ideal for restaurant takeaways.</div>
+        <div class="prod-footer">
+          <div class="prod-price-row"><span class="prod-price">₹8.80</span><span class="prod-mrp">₹11.00</span><span class="prod-discount">20% off</span></div>
+          <div class="prod-moq">Min. Order: 200 pcs</div>
+          <div class="prod-actions"><button class="btn-add-cart" onclick="addToCart('Kraft Handle Bag L', 8.80, '🛍️')"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>Add to Cart</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <div class="prod-img"><div class="prod-img-bg" style="background:#f5ffe8">🛍️</div><div class="prod-badge eco">ECO</div><div class="prod-wishlist" onclick="toggleWishlistItem(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div></div>
+      <div class="prod-body">
+        <div class="prod-code">SOS011</div>
+        <div class="prod-name">SOS Paper Bag (Medium)</div>
+        <div class="prod-desc">Medium SOS flat-bottom paper bag. Great for breads, sandwiches and snacks.</div>
+        <div class="prod-footer">
+          <div class="prod-price-row"><span class="prod-price">₹2.75</span><span class="prod-mrp">₹3.50</span><span class="prod-discount">21% off</span></div>
+          <div class="prod-moq">Min. Order: 500 pcs</div>
+          <div class="prod-actions"><button class="btn-add-cart" onclick="addToCart('SOS Bag Medium', 2.75, '🛍️')"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>Add to Cart</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <div class="prod-img"><div class="prod-img-bg" style="background:#fff0ee">🎁</div><div class="prod-wishlist" onclick="toggleWishlistItem(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div></div>
+      <div class="prod-body">
+        <div class="prod-code">GFT022</div>
+        <div class="prod-name">White Premium Gift Bag</div>
+        <div class="prod-desc">Glossy white paper gift bag with ribbon handles. Perfect for mithai and gifting.</div>
+        <div class="prod-footer">
+          <div class="prod-price-row"><span class="prod-price">₹12.50</span><span class="prod-mrp">₹16.00</span><span class="prod-discount">22% off</span></div>
+          <div class="prod-moq">Min. Order: 100 pcs</div>
+          <div class="prod-actions"><button class="btn-add-cart" onclick="addToCart('White Gift Bag', 12.50, '🎁')"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>Add to Cart</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="prod-card">
+      <div class="prod-img"><div class="prod-img-bg" style="background:#f0f8ff">🧃</div><div class="prod-badge eco">ECO</div><div class="prod-wishlist" onclick="toggleWishlistItem(this)"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div></div>
+      <div class="prod-body">
+        <div class="prod-code">VEG033</div>
+        <div class="prod-name">Mesh Vegetable Bag</div>
+        <div class="prod-desc">Breathable net mesh bags for fresh produce. 100% cotton, fully reusable and washable.</div>
+        <div class="prod-footer">
+          <div class="prod-price-row"><span class="prod-price">₹4.20</span><span class="prod-mrp">₹5.50</span><span class="prod-discount">24% off</span></div>
+          <div class="prod-moq">Min. Order: 500 pcs</div>
+          <div class="prod-actions"><button class="btn-add-cart" onclick="addToCart('Mesh Veggie Bag', 4.20, '🧃')"><svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>Add to Cart</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- WHY US -->
+<div class="section">
+  <div class="section-header">
+    <div>
+      <div class="section-title">Why Choose Pack My Food?</div>
+      <div class="section-sub">We're more than a supplier — we're your packaging partner</div>
+    </div>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+      <div class="why-title">100% Food Safe</div>
+      <div class="why-desc">All materials are FSSAI certified and tested against food-safety standards. No harmful dyes or inks.</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+      <div class="why-title">Free Design Support</div>
+      <div class="why-desc">Our in-house team creates print-ready artwork for your brand — no design experience needed.</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+      <div class="why-title">Pan-India Delivery</div>
+      <div class="why-desc">We ship to 500+ cities across India with reliable, trackable logistics partners and no damage guarantee.</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+      <div class="why-title">Competitive Pricing</div>
+      <div class="why-desc">We work directly with manufacturers so you get the best prices in the market — with no middlemen.</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+      <div class="why-title">Low Minimum Order</div>
+      <div class="why-desc">Start small with orders from just 100 pieces. Scale up with better rates as your order grows.</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div>
+      <div class="why-title">Eco-Friendly Options</div>
+      <div class="why-desc">Choose from our wide range of compostable, biodegradable and recycled packaging materials.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Get a Quote -->
+
+<div class="getaqutoe-section" id="getaquote">
+  <div class="studio-inner">
+    <div class="studio-text">
+      <!--div class="label">🎨 Design Studio</div-->
+      <h2>Ready to Elevate Your Packaging?</h2>
+     
+      <div class="studio-cta">
+      	<a href="tel:+91880750474" class="spec-btn call">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.37 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.19 15z"/></svg>
+        Call Us Now
+      </a>
+        <!--a href="#" class="btn-yellow" style="display:inline-block;margin-top:20px">Start Designing →</a-->
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- DESIGN STUDIO -->
+<!--div class="studio-section" id="design">
+  <div class="studio-inner">
+    <div class="studio-text">
+      <div class="label">🎨 Design Studio</div>
+      <h2>Create Custom Branded Packaging — Your Way</h2>
+      <p>Upload your logo, pick your colors, choose your material and size — our team handles the rest. Get print-ready packaging that represents your brand at every touchpoint.</p>
+      <div class="studio-steps">
+        <div class="studio-step"><div class="step-num">1</div><div class="step-text">Upload your logo and brand assets</div></div>
+        <div class="studio-step"><div class="step-num">2</div><div class="step-text">Choose product type, size, and material</div></div>
+        <div class="studio-step"><div class="step-num">3</div><div class="step-text">Our team creates a free design mockup</div></div>
+        <div class="studio-step"><div class="step-num">4</div><div class="step-text">Approve and place your bulk order</div></div>
+      </div>
+      <div class="studio-cta">
+        <a href="#" class="btn-yellow" style="display:inline-block;margin-top:20px">Start Designing →</a>
+      </div>
+    </div>
+    <div class="studio-visual">
+      <div class="studio-sample"><div class="studio-sample-icon">📦</div><div class="studio-sample-name">Custom Meal Box</div><div class="studio-sample-tag">✓ Your Brand</div></div>
+      <div class="studio-sample"><div class="studio-sample-icon">🛍️</div><div class="studio-sample-name">Branded Bag</div><div class="studio-sample-tag">✓ Your Logo</div></div>
+      <div class="studio-sample"><div class="studio-sample-icon">☕</div><div class="studio-sample-name">Printed Cup</div><div class="studio-sample-tag">✓ Full Color</div></div>
+      <div class="studio-sample"><div class="studio-sample-icon">🍕</div><div class="studio-sample-name">Custom Pizza Box</div><div class="studio-sample-tag">✓ High Res</div></div>
+    </div>
+  </div>
+</div-->
+
+
+<!-- TESTIMONIALS -->
+<div class="section">
+  <div class="section-header">
+    <div>
+      <div class="section-title">What Our Customers Say</div>
+      <div class="section-sub">Trusted by 2,000+ food businesses across India</div>
+    </div>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"Pack My Food transformed our cloud kitchen's brand. The custom kraft boxes look stunning and our delivery ratings went up after switching. Their design team was incredibly helpful."</div>
+      <div class="testi-author"><div class="tav tav-1">RK</div><div><div class="tav-name">Rahul Khanna</div><div class="tav-role">The Biryani Box, Pune</div></div></div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"Ordered 2000 custom bakery boxes. Arrived in 5 days, perfectly printed. They fixed our artwork for free and the quality is top-notch. Will keep ordering!"</div>
+      <div class="testi-author"><div class="tav tav-2">SP</div><div><div class="tav-name">Swetha Pillai</div><div class="tav-role">Cakery Cloud Kitchen, Chennai</div></div></div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"Best packaging supplier I've worked with in 3 years. Low MOQ, great prices, and they actually pick up the phone. Consistent quality across every order."</div>
+      <div class="testi-author"><div class="tav tav-3">MA</div><div><div class="tav-name">Mohammed Arif</div><div class="tav-role">SnackBae, Bengaluru</div></div></div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"We needed eco-friendly packaging fast. Pack My Food delivered 1000 kraft bags in 4 days with full branding. Our customers love the sustainable packaging story."</div>
+      <div class="testi-author"><div class="tav tav-4">PD</div><div><div class="tav-name">Priya Desai</div><div class="tav-role">The Green Bowl, Mumbai</div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="footer-logo">📦 Pack My Food</span>
+      <p>Sustainable food packaging solutions for restaurants, cloud kitchens, bakeries, and food brands. Mumbai-based, India-wide delivery.</p>
+      <div class="footer-certif">
+        <div class="certif-badge">FSSAI ✓</div>
+        <div class="certif-badge">ISO 9001</div>
+        <div class="certif-badge">ECO CERT</div>
+        <div class="certif-badge">Food Safe</div>
+      </div>
+      <div class="footer-social" style="margin-top:16px">
+        <div class="social-btn"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></div>
+        <div class="social-btn"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+        <div class="social-btn"><svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></div>
+        <div class="social-btn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul class="footer-links">
+        <li><a href="#">Meal Boxes</a></li>
+        <li><a href="#">Pizza Boxes</a></li>
+        <li><a href="#">Burger Boxes</a></li>
+        <li><a href="#">Paper Bags</a></li>
+        <li><a href="#">Paper Cups</a></li>
+        <li><a href="#">Salad Bowls</a></li>
+        <li><a href="#">Boat Trays</a></li>
+        <li><a href="#">Bakery Boxes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul class="footer-links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Design Studio</a></li>
+        <li><a href="#">Bulk Orders</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Affiliate</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <div class="footer-contact">
+        <div class="contact-item"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Shop No 78/80, Khadilkar Rd, Girgaon, Mumbai – 400004</span></div>
+        <div class="contact-item"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.37 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.85-1.7a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.19 15z"/></svg><span>+91 23411 43210</span></div>
+        <div class="contact-item"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>hello@packmyfood.in</span></div>
+        <div class="contact-item"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Mon–Sat: 10:00 AM – 7:00 PM</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Pack My Food. All rights reserved. | Designed in Mumbai 🇮🇳</p>
+    <div class="footer-pay">
+      <span style="font-size:.75rem;color:rgba(255,255,255,.4)">We accept:</span>
+      <div class="pay-icon">UPI</div>
+      <div class="pay-icon">NEFT</div>
+      <div class="pay-icon">VISA</div>
+      <div class="pay-icon">MC</div>
+      <div class="pay-icon">Razorpay</div>
+    </div>
+  </div>
+</footer>
+
+<!-- SPECIALIST WIDGET -->
+<div class="specialist-widget">
+  <div class="specialist-card" id="specialistCard">
+    <div class="spec-header">
+      <div class="spec-avatar">PM</div>
+      <div class="spec-info">
+        <div class="name">Packaging Specialist <span class="online-dot"></span></div>
+        <div class="role">Pack My Food · Online Now</div>
+      </div>
+    </div>
+    <div class="spec-msg">👋 Hi! Need help choosing the right packaging for your food business? I'm here to help!</div>
+    <div class="spec-btns">
+      <a href="https://wa.me/9188075043" class="spec-btn whatsapp">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" fill="#fff"/></svg>
+        Chat on WhatsApp
+      </a>
+      <a href="tel:+91880750474" class="spec-btn call">
+        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.37 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.19 15z"/></svg>
+        Call Us Now
+      </a>
+    </div>
+  </div>
+  <button class="specialist-toggle" onclick="toggleSpecialist()">
+    <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span id="specToggleText">Chat with Specialist</span>
+  </button>
+</div>
+
+<!-- CART DRAWER -->
+<div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-header">
+    <h3>🛒 Your Cart</h3>
+    <button class="cart-close" onclick="toggleCart()">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="empty-cart"><div class="icon">🛒</div>Your cart is empty.<br/>Add some products!</div>
+  </div>
+  <div class="cart-footer" id="cartFooter" style="display:none">
+    <div class="cart-total"><span>Subtotal</span><span id="cartTotal">₹0</span></div>
+    <button class="btn-checkout" onclick="alert('Checkout coming soon! Please WhatsApp us your order.')">Proceed to Checkout →</button>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// Variant chips
+document.querySelectorAll('.variant-chip').forEach(chip => {
+  chip.addEventListener('click', function() {
+    this.closest('.variants-row').querySelectorAll('.variant-chip').forEach(c => c.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+// Wishlist items
+function toggleWishlistItem(el) {
+  el.classList.toggle('active');
+  el.querySelector('svg').style.stroke = el.classList.contains('active') ? '#e74c3c' : '#ccc';
+  el.querySelector('svg').style.fill = el.classList.contains('active') ? '#e74c3c' : 'none';
+  showToast(el.classList.contains('active') ? '❤️ Added to Wishlist!' : 'Removed from Wishlist');
+}
+
+// Cart state
+let cart = [];
+function addToCart(name, price, icon) {
+  const existing = cart.find(i => i.name === name);
+  if (existing) { existing.qty++; }
+  else { cart.push({ name, price, icon, qty: 1 }); }
+  updateCartUI();
+  showToast('🛒 Added to cart!');
+}
+
+function updateCartUI() {
+  const count = cart.reduce((s, i) => s + i.qty, 0);
+  document.getElementById('cartCount').textContent = count;
+  const total = cart.reduce((s, i) => s + i.price * i.qty, 0);
+  document.getElementById('cartTotal').textContent = '₹' + total.toFixed(2);
+  const itemsEl = document.getElementById('cartItems');
+  const footerEl = document.getElementById('cartFooter');
+  if (cart.length === 0) {
+    itemsEl.innerHTML = '<div class="empty-cart"><div class="icon">🛒</div>Your cart is empty.<br/>Add some products!</div>';
+    footerEl.style.display = 'none';
+  } else {
+    footerEl.style.display = 'block';
+    itemsEl.innerHTML = cart.map((item, idx) => `
+      <div class="cart-item">
+        <div class="cart-item-icon">${item.icon}</div>
+        <div class="cart-item-info">
+          <div class="cart-item-name">${item.name}</div>
+          <div class="cart-item-price">₹${(item.price * item.qty).toFixed(2)}</div>
+        </div>
+        <div class="cart-item-qty">
+          <button class="qty-btn" onclick="changeQty(${idx},-1)">−</button>
+          <span class="qty-val">${item.qty}</span>
+          <button class="qty-btn" onclick="changeQty(${idx},1)">+</button>
+        </div>
+      </div>
+    `).join('');
+  }
+}
+
+function changeQty(idx, delta) {
+  cart[idx].qty += delta;
+  if (cart[idx].qty <= 0) cart.splice(idx, 1);
+  updateCartUI();
+}
+
+function toggleCart() {
+  const drawer = document.getElementById('cartDrawer');
+  const overlay = document.getElementById('cartOverlay');
+  drawer.classList.toggle('open');
+  overlay.classList.toggle('open');
+}
+
+// Specialist widget
+function toggleSpecialist() {
+  const card = document.getElementById('specialistCard');
+  const txt = document.getElementById('specToggleText');
+  card.classList.toggle('open');
+  txt.textContent = card.classList.contains('open') ? 'Close' : 'Chat with Specialist';
+}
+
+// Toast
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+// Search
+function handleSearch() {
+  const q = document.getElementById('searchInput').value.trim();
+  if (q) showToast('🔍 Searching for: ' + q);
+}
+document.getElementById('searchInput').addEventListener('keypress', e => {
+  if (e.key === 'Enter') handleSearch();
+});
+
+// Scroll-in animation
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)'; } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.prod-card,.why-card,.testi-card,.cat-card,.studio-sample').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(16px)';
+  el.style.transition = 'opacity .4s ease, transform .4s ease';
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
